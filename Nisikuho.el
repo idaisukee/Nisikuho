@@ -1,3 +1,14 @@
+(setq Nisikuho-day (* 60 60 24))
+(setq Nisikuho-days
+    (list
+        (* 0.01 Nisikuho-day)
+        (* 0.1 Nisikuho-day)
+        (* 1 Nisikuho-day)
+        (* 10 Nisikuho-day)
+        (* 100 Nisikuho-day)
+        (* 1000 Nisikuho-day)
+        (* 10000 Nisikuho-day)))
+
 
 (custom-set-variables
     `(dired-k-size-colors
@@ -17,17 +28,13 @@
 (custom-set-variables
     `(dired-k-date-colors
          `(
-              (0 . ,monokai-red)
-              (60 . ,monokai-orange)
-              (3600 . ,monokai-magenta)
-              
-              (86400 . ,monokai-violet)
-              (604800 . ,monokai-yellow)
-              (2419200 . ,monokai-blue)
-              
-              (15724800 . ,monokai-blue)
-              (31449600 . ,monokai-cyan)
-              (62899200 . ,monokai-cyan))))
+              (,(elt Nisikuho-days 0) . ,monokai-red)
+              (,(elt Nisikuho-days 1) . ,monokai-orange)
+              (,(elt Nisikuho-days 2). ,monokai-magenta)
+              (,(elt Nisikuho-days 3). ,monokai-violet)
+              (,(elt Nisikuho-days 4). ,monokai-yellow)
+              (,(elt Nisikuho-days 5). ,monokai-blue)
+              (,(elt Nisikuho-days 6) . ,monokai-cyan))))
 
 
 (provide 'Nisikuho)
