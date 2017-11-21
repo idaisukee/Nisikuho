@@ -1,5 +1,5 @@
-(setq Nisikuho-day (* 60 60 24))
-(setq Nisikuho-days
+(defvar Nisikuho-day (* 60 60 24))
+(defvar Nisikuho-days
     (list
         (* 0.01 Nisikuho-day)
         (* 0.1 Nisikuho-day)
