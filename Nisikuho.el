@@ -30,10 +30,10 @@
          `(
               (,(elt Nisikuho-days 0) . ,monokai-red)
               (,(elt Nisikuho-days 1) . ,monokai-orange)
-              (,(elt Nisikuho-days 2). ,monokai-magenta)
-              (,(elt Nisikuho-days 3). ,monokai-violet)
-              (,(elt Nisikuho-days 4). ,monokai-yellow)
-              (,(elt Nisikuho-days 5). ,monokai-blue)
+              (,(elt Nisikuho-days 2) . ,monokai-magenta)
+              (,(elt Nisikuho-days 3) . ,monokai-violet)
+              (,(elt Nisikuho-days 4) . ,monokai-yellow)
+              (,(elt Nisikuho-days 5) . ,monokai-blue)
               (,(elt Nisikuho-days 6) . ,monokai-cyan))))
 
 
