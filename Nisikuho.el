@@ -9,6 +9,10 @@
         (* 1000 Nisikuho-day)
         (* 10000 Nisikuho-day)))
 
+(custom-set-faces
+    `(dired-k-directory
+         ((t (
+                 :foreground ,monokai-blue)))))
 
 (custom-set-variables
     `(dired-k-size-colors
